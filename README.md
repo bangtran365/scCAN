@@ -13,5 +13,5 @@ scCAN is a R software package that can perform unsupervised clustering for singl
 - Generate clustering result, the input matrix has rows as samples and columns as genes: `result <- scCAN(data, r.seed = 1)`
 - The clustering result can be found here: `cluster <- result$cluster`
 - Calculating adjusted Rand Index: `ari <- round(scCAN::adjustedRandIndex(cluster,label), 2)`
-  `print(paste0("ARI = ", ari))`
+- Print out ARI value:  `print(paste0("ARI = ", ari))`
   Or, a vignette in R Notebook format is available [here](https://github.com/duct317/scDHA/blob/master/vignettes/Example.Rmd)
