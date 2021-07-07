@@ -1,0 +1,21 @@
+Package: scCAN
+Type: Package
+Title: scCAN: Single-cell clustering using autoencoder and network fusion
+Version: 1.0.0
+Authors@R: c(
+    person("Bang", "Tran", , "duct@nevada.unr.edu", role = c("aut", "cre")),
+    person("Duc", "Tran", role = c("aut")),
+    person("Hung", "Nguyen", role = c("aut")),
+    person("Tin", "Nguyen", role = c("fnd"))
+    )
+Maintainer: Bang Tran <bang.t.s@nevada.unr.edu>
+Description: A single-cell Clustering method using Autoencoder and Network fusion (scCAN) 
+    scCAN can accurately segregate cells from the high-dimensional noisy scRNA-Seq data.
+License: LGPL
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.4)
+Imports: scDHA, FNN, purrr, stats
+RoxygenNote: 7.1.1
+Suggests: knitr
+VignetteBuilder: knitr
