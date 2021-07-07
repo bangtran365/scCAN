@@ -14,4 +14,4 @@ scCAN is a R software package that can perform unsupervised clustering for singl
 - The clustering result can be found here: `cluster <- result$cluster`
 - Calculating adjusted Rand Index: `ari <- round(scCAN::adjustedRandIndex(cluster,label), 2)`
 - Print out ARI value:  `print(paste0("ARI = ", ari))`
-  Or, a vignette in R Notebook format is available [here](https://github.com/duct317/scDHA/blob/master/vignettes/Example.Rmd)
+  Or, a vignette in R Notebook format is available [here](https://github.com/bangtran365/scCAN/tree/master/vignettesExample.Rmd)
