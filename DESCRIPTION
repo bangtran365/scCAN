@@ -10,12 +10,12 @@ Authors@R: c(
     )
 Maintainer: Bang Tran <bang.t.s@nevada.unr.edu>
 Description: A single-cell Clustering method using Autoencoder and Network fusion (scCAN) 
-    scCAN can accurately segregate cells from the high-dimensional noisy scRNA-Seq data.
+    scCAN can accurately segregate cells from the high-dimensional scRNA-Seq data.
 License: LGPL
 Encoding: UTF-8
 LazyData: true
 Depends: R (>= 3.4)
-Imports: scDHA, FNN, purrr, stats
+Imports: scDHA, FNN, purrr, stats, markdown
 RoxygenNote: 7.1.1
 Suggests: knitr
 VignetteBuilder: knitr

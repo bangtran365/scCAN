@@ -1,4 +1,4 @@
-#' @import scDHA
+#' @importFrom scDHA scDHA
 #' @importFrom FNN knn
 #' @importFrom purrr quietly
 #' @importFrom stats dnorm
